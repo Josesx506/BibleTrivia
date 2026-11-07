@@ -4,8 +4,9 @@ A two-team Bible quiz for church, built as a static site (no build step).
 
 ## Run it
 Open `index.html` in a browser, or host it on GitHub Pages:
-1. Create a repo and upload all files in this folder.
-2. Settings > Pages > Deploy from branch > `main` / root.
+1. In the repo, go to Settings > Pages and set Source to **GitHub Actions**.
+2. Push to `main`. The workflow in `.github/workflows/pages.yml` publishes the
+   site (you can also run it by hand from the Actions tab).
 
 ## Edit questions
 All questions live in `questions.js`. Each section has an example and a pool.
